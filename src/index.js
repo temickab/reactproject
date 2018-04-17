@@ -4,5 +4,13 @@ import './index.css'
 import Hello from './Hello'
 import registerServiceWorker from './registerServiceWorker'
 
-ReactDOM.render(<Hello />, document.getElementById('root'))
+const post = {
+  title: "Temicka's Journey",
+  author: 'Micka Brown',
+  body: 'This is a post hahhaha fucker. Just joking',
+  comments: ['First comment', 'Second comment', 'Third comment']
+
+}
+
+ReactDOM.render(<Hello name={'Temicka'} age={31} />, document.getElementById('root'))
 registerServiceWorker()

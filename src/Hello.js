@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Post from './Post.js'
 
 // define our Hello component
 class Hello extends Component {
@@ -6,7 +7,10 @@ class Hello extends Component {
   render () {
     // Make sure to return some UI
     return (
-      <h1>Hello Temicka</h1>
+      <div>
+        <h1>Hello {this.props.name}. You are {this.props.age} years old.</h1>
+        <Post />
+      </div>
     )
   }
 }
