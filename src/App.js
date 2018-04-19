@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
 import Post from './Post.js'
 
-// define our Hello component
-class Hello extends Component {
+class App extends Component {
   // what should the component render
   render () {
     // Make sure to return some UI
@@ -15,4 +14,4 @@ class Hello extends Component {
   }
 }
 
-export default Hello
+export default App
