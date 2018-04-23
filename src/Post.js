@@ -10,7 +10,7 @@ class Post extends Component {
       <div>
         <h2>Hello how are you?</h2>
         <h3>Comments:</h3>
-        <Comment message={this.props.comments} />
+        <Comment message={this.props.post} />
       </div>
     )
   }
